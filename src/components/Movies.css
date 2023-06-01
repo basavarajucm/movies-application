@@ -1,0 +1,36 @@
+.movie-search-bar{
+    padding: 3pc 30px;
+}
+.movie-search-bar input {
+    height: 50px;
+}
+.movie-search-bar .ant-input-group-addon button {
+    height: 50px;
+}
+.popular-movies{
+    display: flex;
+    flex-wrap: wrap;
+}
+.popular-movies .ant-card{
+    margin:15px !important;
+    height: 500px !important;
+}
+.popular-movies-section{
+    padding: 30px !important;
+}
+.movie-overview{
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+.release-date{
+    font-weight: 500;
+    color: coral;
+}
+.search-bar-section{
+    border-bottom: 1px solid grey;
+    height: 50vh;
+    background: url('../../public/banner.jpg');
+}
